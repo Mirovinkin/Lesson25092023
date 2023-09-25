@@ -37,10 +37,10 @@ public:
         return x + y;
     }
     double Max() {
-        return std::max(x, y);
+        return max(x, y);
     }
     double Max() {
-        return std::min(x, y);
+        return min(x, y);
     }
 };
 int main()
